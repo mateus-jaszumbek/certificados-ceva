@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: rgb(1, 1, 108);
+    }
+
+    .container {
+        width: 85%;
+        margin: 20rem auto;
+    }
+
+    .hrvermelho {
+        width: 100%;
+        height: 3px;
+        background-color: red;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .coluna4 {
+        margin-top: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .coluna5 {
+        margin-top: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .coluna2 {
+        margin-top: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .interior {
+        background-color: #f0f0f0;
+        box-sizing: border-box;
+        height: 3.6rem;
+
+    }
+
+    .espaco {
+        margin-left: 1rem;
+    }
+
+    .color {
+        height: 4rem;
+        margin: auto;
+        width: 35%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div style="text-align: center; font-size: 2rem; color: gainsboro; ">
+                <h3>Proposta Comercial</h3>
+            </div>
+            <div>
+                <div>
+                    <img src="./img/aviao.png" style="width: 100px;" alt="">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 30%;">
+                    <div>                       
+                        <h2> Frete Aéreo</h2>
+                    </div>
+                </div>
+                <div>
+                    <h1>de OSLO para GUARULHOS (FCA)</h1>
+                </div>
+            </div>
+        </header>
+        <div class="hrvermelho"></div>
+        <section>
+            <div style="width: 100%;">
+                <div class="coluna4 ">
+                    <div class="interior">
+                        <div>
+                            <p class="espaco"> Número da Proposta <br> <span style="color: black;">
+                                    BR/2024003870A</span></p>
+                        </div>
+                    </div>
+                    <div class="interior">
+                        <div>
+                            <p class="espaco"> Data de envio <br> <span style="color: black;">10/07/2024</span></p>
+                        </div>
+                    </div>
+                    <div class="interior">
+                        <div>
+                            <p class="espaco">Data da solicitação <br><span style="color: black;"> 28/06/2024</span></p>
+                        </div>
+                    </div>
+                    <div class="interior">
+                        <div>
+                            <p class="espaco">Validade <br><span style="color: black;"> 15/07/2024</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna2">
+                    <div class="interior">
+                        <div>
+                            <p class="espaco">Cliente <br><span style="color: black;"> ABB Ltda</span></p>
+                        </div>
+                    </div>
+                    <div class="interior">
+                        <div>
+                            <p class="espaco">Vendedor Responsável <br> <span style="color: black;">Daniely
+                                    Soares</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna4">
+                    <div class="interior">
+                        <p class="espaco"> Serviço <br><span style="color: black;"> Importação Aérea</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Incoterm <br> <span style="color: black;">FCA - Free Carrier</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Airfreight Service <br> <span style="color: black;">Air Value</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Mercadoria <br><span style="color: black;"> Geral</span></p>
+                    </div>
+                </div>
+                <div class="coluna4">
+                    <div class="interior">
+                        <p class="espaco">UN/Classificação</p>
+                        <p class="espaco"></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Carga empilhável <br> <span style="color: black;">Sim</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Descrição da Mercadoria <br><span style="color: black;"> Carga Geral</span>
+                        </p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Valor Mercadoriabr <br> <span style="color: black;">USD 0,00</span></p>
+                    </div>
+                </div>
+                <div class="coluna2">
+                    <div class="interior">
+                        <p class="espaco">Valor CIF <br> <span style="color: black;">USD 0,00</span></p>
+                    </div class="interior">
+                    <div class="interior">
+                        <p class="espaco">Transporte Interno Brasil <br> <span style="color: black;">Não</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Desembaraço <br><span style="color: black;"> Não</span></p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Seguro <br><span style="color: black;"> Não</span></p>
+                    </div>
+                </div>
+                <div class="coluna2">
+                    <div class="interior">
+                        <p class="espaco">Local de Coleta</p>
+                    </div>
+                    <div class="interior">
+                        <p class="espaco">Local de Entrega</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="hrvermelho" style="margin-top: 1rem;"></div>
+        <section>
+            <div>
+                <div style="background-color: #f0f0f0;">
+                    <p class="espaco">Dados da Carga</p>
+                </div>
+                <div></div>
+                <div style="background-color: #f0f0f0;">
+                    <p class="espaco">it</p>
+                </div>
+                <div></div>
+                <div style="background-color: #f0f0f0;">
+                    <p class="espaco">Total</p>
+                </div>
+            </div>
+        </section>
+        <div class="hrvermelho"></div>
+        <section>
+            <div>
+                <div class="display" style="background-color: #f0f0f0;">
+                    <div style="width: 30%;">
+                        <p class="espaco">Frete Internacional</p>
+                    </div>
+                    <div style="width: 30%;">
+                        <p class="espaco">Origem: OSL</p>
+                    </div>
+                    <div>
+                        <p class="espaco">Destino: GRU</p>
+                    </div>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+                <div style="background-color: #f0f0f0;">
+                    <p><br></p>
+                </div>
+                <div class="coluna5">
+                    <div>
+                        <p class="espaco">Moeda: USD</p>
+                    </div>
+                    <div>
+                        <p>Rota: OSL-LIS-GRU</p>
+                    </div>
+                    <div>
+                        <p>Frequência: TBC</p>
+                    </div>
+                    <div>
+                        <p>Transit Time: 5-8 days</p>
+                    </div>
+                    <div>
+                        <p>Airline: CEVA</p>
+                    </div>
+                </div>
+                <div style="background-color: #f0f0f0; height: 2rem;">
+                    <p class="espaco" style="padding: 5px;">total fretes</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div style="background-color: #f0f0f0; height: 2rem;">
+                    <p class="espaco" style="padding: 5px;">Taxas na Origem</p>
+                </div>
+                <div class="coluna5">
+                    <div class="espaco">
+                        <p>It</p>
+                    </div>
+                    <div>
+                        <p>Descrição</p>
+                    </div>
+                    <div>
+                        <p>Moeda</p>
+                    </div>
+                    <div>
+                        <p>KG</p>
+                    </div>
+                    <div>
+                        <p>Valor Mínimo/Fixo</p>
+                    </div>
+                    <div>
+                        <p>Total USD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div style="background-color: #f0f0f0; height: 2rem;">
+                <p class="espaco" style="padding: 5px;">Total Taxas no Destino</p>
+            </div>
+        </section>
+        <div>
+            <p></p>
+        </div>
+        <section>
+            <div>
+                <div style="background-color: #f0f0f0; height: 3rem;">
+                    <p class="espaco" style="padding: 1rem;">Taxas no Destino</p>
+                </div>
+            </div>
+            <div class="coluna5">
+                <div>
+                    <p class="espaco">It</p>
+                </div>
+                <div>
+                    <p>Descrição</p>
+                </div>
+                <div>
+                    <p>Moeda</p>
+                </div>
+                <div>
+                    <p>KG</p>
+                </div>
+                <div>
+                    <p>Valor Mínimo/Fixo</p>
+                </div>
+                <div>
+                    <p>Total USD</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: #f0f0f0; height: 3rem;">
+            <div>
+                <p style="padding: 1rem;">Total Taxas no Destino</p>
+            </div>
+        </section>
+        <section>
+            <div class="display" style="justify-content: end; margin-top: 10rem;">
+                <div style=" margin-right: 15rem;">
+                    <p>Valor total aproximado: </p>
+                </div>
+                <div style="width: 20rem; height: 5rem; background-color: #f0f0f0;"></div>
+            </div>
+        </section>
+        <section style="width: 90%; margin-top: 5rem; color: black;">
+            <div>
+                <b>Observações</b>
+                <div>
+                    <span>Condições serão válidas se aprovadas em até 48horas do recebimento deste email.
+                        Tarifas válidas on board date de acordo com a validade da proposta comercial e sujeito a
+                        alteração
+                        de valores se embarcado após a validade, de acordo com tarifas V.A.T.O.S (valid at time of
+                        shipment);</span>
+                </div>
+                <div>
+                    <p>
+                        Suieito a disponibilidade de servico/caminhão no momento da coleta; Sujeito a disponibilidade de
+                        espaço e equipamento no momento do embarque;
+                        Sujeito a variacões de schedule da cia aérea/maritima sem aviso previo, e
+                        Sujeito a aplicação de GRI/PSS de acordo com o repasse do armador/cia aérea.
+                        * Transit time acima não considera tempo de coleta/entrega, favor adicionar 1-2 dias úteis
+                        * Rate based on current availability, subject to change due to COVID-19 and cancelation fee
+                        after
+                        Booking confirmation
+                    </p>
+                </div>
+                <div>
+                    <b>Pickup/Delivery Remarks:</b>
+                    <div>
+                        <span>Ad Valorem: % over cargos final invoice value (NF) - At cost
+                            Tolls/CMS/PIS/COFINS/ISS: At cost - pass through
+                            Loading/Unloading: Shipper Responsibility
+                            Helper: BRL 200,00 / helper *If requested
+                            Devolution cargo: 100% of freight + duties * if need
+                            Add DG cargo: 35% up to rate * to be confirmed each UN
+                            Delivery just on working hours, for weekends/holidays/at night: 80% up to rate quoted
+                            If this cargos value is over BRL 1 million, this quotation will have to be revised Ratio:
+                            1cbm = 167kgs / Ratio: 1cbm =
+                            300kgs ? it depends on Truck
+                            company Live Load/unload -> Free Time 1 hour - After that will be BRL 100,00/Hour --no more
+                            than 8hours to stay there
+                            Storage: at cost - cnee
+                            responsibility (This charge must be paid by consignee/ Broker)</span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <ul>
+                            <b>DTA Remarks:</b>
+                            <li>ICMS repasse oficial.</li>
+                            <li>A cobrança será por AWB ou HAWB.</li>
+                            <li>Para cobrança do frete será utilizado o peso cubado do AWB ou HAWB.</li>
+                            <li>Armazenagem no Aeroporto de origem por conta do cliente</li>
+                            <li>Tabela aplicável para carga geral em caminhão compartilhado, com dimensões máximas de
+                                3,00 m de comprimento x 2,40 m de
+                                largura x 2,50 m de altura ou 1.500 kg por volume.</li>
+                            <li>Para carga com medidas e peso superiores ao acima discriminado, o frete rodoviário será
+                                cobrado na tabela por caminhão.</li>
+                            <li>Taxas ou cobranças que por ventura sejam criadas pela Iniraero ou pelo Concessório
+                                Privado serão repassadas ao cliente.</li>
+                            <li>Quando a carga necessitar de Anuência da ANVISA, Agricultura, fumigação ou carga DGR,
+                                haverá taxa de expediente de USD
+                                30,00 por processo.</li>
+                            <li>Se necessária retirada de documentação original nas Cias Aéreas e/ou adiantamento para
+                                pagamento do delivery fee, será
+                                cobrado a taxa de USD 15,00.</li>
+                            <li>Carga DGR compatível com outras mercadorias, o frete será cobrado na tabela
+                                compartilhada com adicional de 30%.</li>
+                            <li>Carga DGR NAO compativel com outras mercadorias, o frete será cobrado na tabela por
+                                caminhão com adicional de 30%.</li>
+                            <li>Carga com valor superior a R$ 1.000.000,00 será necessária escolta armada ou caminhão
+                                cofre e o custo será repassado ao
+                                cliente.</li>
+                            <li>Cargas de informática, telefonia móvel, processadores, tablets e suas partes/peças,
+                                consultar PGR obrigatório e a
+                                possibilidade ou não de compartilhamento com outras cargas.</li>
+                            <li>Tabela não aplicável para cargas refrigeradas, com excesso de dimensões ou que
+                                necessitem de suspensão pneumática
+                                consultar frete para caminnao especifico.</li>
+                            <li>Para cargas visadas para roubo ou carga de alto valor agregado consultar frete para
+                                caminhão cofre. /</li>
+                            <li>Transporte rodoviário em regime de trânsito aduaneiro - DTA, Aeroporto para Aeroporto
+                                (zona primária).</li>
+                            <li>Observe que o total desta proposta e aproximado, calculado com base nas informações
+                                recebidas, sujeito a variação
+                                conforme peso e medida da carga e alteracões na operação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
